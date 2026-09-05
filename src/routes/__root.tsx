@@ -77,14 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Dr. Narayan Chowdhury (Nixon) | Urologist & Surgeon | Rangpur" },
+      { name: "description", content: "Dr. Narayan Chowdhury (Nixon) - Consultant Urologist & Surgeon, MBBS, BCS (Health), MS (Urology). Practice at Asia Diagnostic Center, Dhap, Rangpur." },
+      { name: "author", content: "Asia Diagnostic Center" },
+      { property: "og:title", content: "Dr. Narayan Chowdhury (Nixon) | Urologist & Surgeon" },
+      { property: "og:description", content: "Consultant Urologist & Surgeon in Rangpur. Expert care for kidney stones, prostate, urinary and male urology problems." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
